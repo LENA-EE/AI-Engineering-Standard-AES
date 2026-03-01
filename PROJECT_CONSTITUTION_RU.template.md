@@ -1,4 +1,4 @@
-# 📜 PROJECT CONSTITUTION
+# 📜 КОНСТИТУЦИЯ ПРОЕКТА
 
 ## Каноническая конституция проекта (AI Engineering Standard — AES)
 
@@ -39,7 +39,7 @@ AI-агент обязан:
 
 ---
 
-# 1. 🎯 PRODUCT SCOPE
+# 1. 🎯 ОБЛАСТЬ И ОБЪЁМ ПРОДУКТА
 
 ## Описание проекта
 
@@ -49,11 +49,11 @@ AI-агент обязан:
 
 ---
 
-## MVP Scope (≤5 пунктов)
+## Область MVP (≤5 пунктов)
 
 ---
 
-## Non-Goals (НЕ входит в MVP)
+## Исключённые области (НЕ входит в MVP)
 
 ❌
 ❌
@@ -73,7 +73,7 @@ AI-агент обязан:
 
 # 2. 🛠️ ТЕХНОЛОГИЧЕСКИЙ СТЕК
 
-## Frontend
+## Фронтенд
 
 Framework:
 Language:
@@ -84,7 +84,7 @@ HTTP Client:
 UI Library:
 Validation:
 
-## Backend
+## Бэкенд
 
 Framework:
 Database:
@@ -92,7 +92,7 @@ ORM:
 Auth:
 File Storage:
 
-## Infrastructure
+## Инфраструктура
 
 Package Manager:
 Runtime:
@@ -105,10 +105,10 @@ Hosting:
 
 ## Архитектурный подход
 
-Pattern:
-Layer separation:
-API isolation:
-Error handling:
+Паттерн:
+Разделение слоёв:
+Изоляция API:
+Обработка ошибок:
 
 ---
 
@@ -124,19 +124,19 @@ src/
 
 ---
 
-# 4. 👤 USER FLOWS
+# 4. 👤 ПОЛЬЗОВАТЕЛЬСКИЕ СЦЕНАРИИ
 
-FLOW 1:
+СЦЕНАРИЙ 1:
 Пользователь → → Результат
 
-FLOW 2:
+СЦЕНАРИЙ 2:
 Пользователь → → Результат
 
 ---
 
-# 5. 📋 FUNCTIONAL REQUIREMENTS
+# 5. 📋 ФУНКЦИОНАЛЬНЫЕ ТРЕБОВАНИЯ
 
-## User Stories
+## Пользовательские истории
 
 P0:
 
@@ -150,19 +150,19 @@ P2:
 
 # 6. ⚡ НЕФУНКЦИОНАЛЬНЫЕ ТРЕБОВАНИЯ
 
-## Performance
+## Производительность
 
 API latency P95:
 Page load:
 Bundle size:
 
-## Reliability
+## Надёжность
 
 Uptime target:
 Healthcheck:
 /health → 200 OK
 
-## Security
+## Безопасность
 
 Authentication:
 Rate limiting:
@@ -171,13 +171,13 @@ HTTPS:
 
 ---
 
-# 7. 🗄️ DOMAIN MODEL
+# 7. 🗄️ МОДЕЛЬ ДАННЫХ
 
 Entity1 1:M Entity2
 
 ---
 
-# 8. 🚀 DEPLOYMENT
+# 8. 🚀 РАЗВЁРТЫВАНИЕ
 
 Platform:
 Environment variables:
@@ -186,7 +186,7 @@ Rollback strategy:
 
 ---
 
-# 9. ✅ ACCEPTANCE CRITERIA
+# 9. ✅ КРИТЕРИИ ПРИЁМКИ
 
 Feature считается завершённой если:
 
